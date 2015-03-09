@@ -49,7 +49,7 @@ static const int64_t nInterval = nTargetTimespan / nTargetSpacing;
 static const int64_t nDiffChangeTarget = 1;
 
 unsigned int nStakeMinAge = 8 * 60 * 60; // Xcoin - 8 hours
-unsigned int nStakeMaxAge = 1440 * 60; // Xcoin - 24 hours
+unsigned int nStakeMaxAge = -1; // Xcoin - 24 hours
 unsigned int nModifierInterval = 10 * 60; // Xcoin - time to elapse before new modifier is computed
 
 int nCoinbaseMaturity = 100;
